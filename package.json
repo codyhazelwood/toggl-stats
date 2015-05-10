@@ -1,0 +1,32 @@
+{
+  "name": "toggl-stats",
+  "version": "0.1.0",
+  "description": "A simple command line tool for checking your Toggl stats for the week.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codyhazelwood/toggl-stats.git"
+  },
+  "keywords": [
+    "Toggl",
+    "stats",
+    "weekly",
+    "command",
+    "line"
+  ],
+  "author": "Cody Hazelwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codyhazelwood/toggl-stats/issues"
+  },
+  "homepage": "https://github.com/codyhazelwood/toggl-stats",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "easy-table": "^0.3.0",
+    "lodash": "^3.8.0",
+    "minimist": "^1.1.1"
+  }
+}
